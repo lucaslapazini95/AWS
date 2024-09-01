@@ -24,6 +24,8 @@ AWS CloudHSM is a cloud-based Hardware Security Module (HSM) that enables you to
 
 Please review this detailed description for CloudHSM: [via AWS CloudHSM](https://aws.amazon.com/cloudhsm/)
 
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q14-i1.jpg)
+
 **Incorrect options:**
 
 - **AWS Key Management Service (AWS KMS)** - AWS Key Management Service (AWS KMS) makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications. It is a secure and resilient service that uses hardware security modules that have been validated under FIPS 140-2, or are in the process of being validated, to protect your keys. It cannot be used as a Hardware Security Module for data encryption operations in AWS Cloud.
@@ -64,6 +66,10 @@ Security and Compliance
 **On-demand Instance** - An On-Demand Instance is an instance that you use on-demand. You have full control over its lifecycle — you decide when to launch, stop, hibernate, start, reboot, or terminate it. There is no long-term commitment required when you purchase On-Demand Instances. There is no upfront payment and you pay only for the seconds that your On-Demand Instances are running. The price per second for running an On-Demand Instance is fixed. On-demand instances cannot be interrupted.
 
 **EC2 Pricing Options Overview:** [via EC2 Pricing](https://aws.amazon.com/ec2/pricing/)
+
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q31-i1.jpg)
+
+
 
 **Incorrect options:**
 
@@ -107,6 +113,8 @@ Billing and Pricing
 The ability to acquire resources as you need and release when they are no longer needed is termed as Elasticity of the Cloud. With cloud computing, you don’t have to over-provision resources upfront to handle peak levels of business activity in the future. Instead, you provision the number of resources that you need. You can scale these resources up or down instantly to grow and shrink capacity as your business needs change.
 
 **What is Elasticity:** [via What is Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/)
+
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q7-i1.jpg)
 
 **Incorrect options:**
 
@@ -195,6 +203,8 @@ Security and Compliance
 
 **How SNS Works:** [via SNS](https://aws.amazon.com/sns/)
 
+![](https://d1.awsstatic.com/product-marketing/SNS/product-page-diagram_SNS_how-it-works_1.53a464980bf0d5a868b141e9a8b2acf12abc503f.png)
+
 **Incorrect options:**
 
 - **AWS CloudTrail** - AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account. With CloudTrail, you can log, continuously monitor, and retain account activity related to actions across your AWS infrastructure. Think account-specific activity and audit; think CloudTrail. CloudTrail cannot be used to monitor CPU utilization for EC2 instances or send emails.
@@ -236,6 +246,8 @@ Technology
 - **Amazon Eventbridge** - Amazon EventBridge is a service that provides real-time access to changes in data in AWS services, your own applications, and software as a service (SaaS) applications without writing code. Amazon EventBridge Scheduler is a serverless task scheduler that simplifies creating, executing, and managing millions of schedules across AWS services without provisioning or managing underlying infrastructure.
 
 **Amazon Eventbridge Scheduler:** [via Eventbridge](https://aws.amazon.com/eventbridge/)
+
+![](https://d1.awsstatic.com/product-marketing/EventBridge/Product-Page-Diagram_Amazon-EventBridge-Scheduler.ab2cc1a1c0f233a4e1e4c5829a0d6c5fc23d9586.png)
 
 - **AWS Lambda** - AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume. The lambda has a maximum execution time of 15 minutes, so it can be used to run this log backup process.
 
@@ -285,6 +297,8 @@ Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ t
 If you're using messaging with existing applications, and want to move the messaging functionality to the cloud quickly and easily, AWS recommends you consider Amazon MQ. It supports industry-standard APIs and protocols so you can switch from any standards-based message broker to Amazon MQ without rewriting the messaging code in your applications. If you are building brand new applications in the cloud, AWS recommends you consider Amazon SQS and Amazon SNS.
 
 **How Amazon MQ works:** [via Amazon MQ](https://aws.amazon.com/amazon-mq/)
+
+![](https://d1.awsstatic.com/product-marketing/Amazon-MQ/Amazon%20MQ%20HIW%20Diagram.78e380e8a97064c8f751c1569481a304644490b5.jpg)
 
 **Incorrect options:**
 
@@ -374,6 +388,8 @@ AWS Web Application Firewall (AWS WAF) is a web application firewall that helps 
 
 **How AWS Web Application Firewall (AWS WAF) Works:** [via AWS WAF](https://aws.amazon.com/waf/)
 
+![](https://d1.awsstatic.com/products/WAF/product-page-diagram_AWS-WAF_How-it-Works@2x.452efa12b06cb5c87f07550286a771e20ca430b9.png)
+
 **Incorrect options:**
 
 - **Amazon CloudWatch** - Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers. Amazon CloudWatch provides data and actionable insights to monitor applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health. This is an excellent service for building Resilient systems. Think resource performance monitoring, events, and alerts; think CloudWatch. Amazon CloudWatch cannot be used to block users from certain geographies.
@@ -418,6 +434,8 @@ Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS
 If your application is hosted in multiple AWS Regions, you can use latency-based routing policy to improve the performance for your users by serving their requests from the AWS Region that provides the lowest latency. To use latency-based routing, you create latency records for your resources in multiple AWS Regions. When Amazon Route 53 receives a DNS query for your domain or subdomain (example.com or acme.example.com), it determines which AWS Regions you've created latency records for, determines which region gives the user the lowest latency, and then selects a latency record for that region. Amazon Route 53 responds with the value from the selected record, such as the IP address for a web server.
 
 **Amazon Route 53 Routing Policy Overview:** [via Route53](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html)
+
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q51-i1.jpg)
 
 **Incorrect options:**
 
@@ -470,6 +488,8 @@ Similar to an SQL injection attack, a cross-site scripting attack also involves 
 
 **How Amazon GuardDuty Works:** [via Amazon GuardDuty](https://aws.amazon.com/guardduty/)
 
+![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram-Amazon-GuardDuty_how-it-works.4370200b49eddc34d3a55c52c584484ceb2d532b.png)
+
 - **Amazon Inspector** - Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. Amazon Inspector automatically assesses applications for exposure, vulnerabilities, and deviations from best practices. Amazon Inspector cannot be used to protect from web exploits such as SQL injection and cross-site scripting.
 
 - **AWS CloudWatch** - Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers. CloudWatch provides data and actionable insights to monitor applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health. This is an excellent service for building Resilient systems. Think resource performance monitoring, events, and alerts; think CloudWatch. CloudWatch cannot be used to protect from web exploits such as SQL injection and cross-site scripting.
@@ -508,6 +528,8 @@ Security and Compliance
 Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud with support for per-second billing. It is the easiest way to provision servers on AWS Cloud and access the underlying OS. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change.
 
 **Amazon Elastic Compute Cloud (Amazon EC2) Overview:** [via Amazon EC2](https://aws.amazon.com/ec2/)
+
+![](https://d1.awsstatic.com/diagrams/product-page-diagrams/product-page-diagram_ECS_1.86ebd8c223ec8b55aa1903c423fbe4e672f3daf7.png)
 
 **Incorrect options:**
 
@@ -758,6 +780,9 @@ The Email address and the password used for signing up for AWS services are the 
 
 **AWS Root User Account Security Best Practices:**
 
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q54-i1.jpg)
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q54-i2.jpg)
+
 - [via IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html)
 - [via IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#lock-away-credentials)
 
@@ -809,9 +834,13 @@ Amazon EMR is the industry-leading cloud big data platform for processing vast a
 
 **AWS Step Functions Overview:** [via Step Functions](https://aws.amazon.com/step-functions/)
 
+![](https://d1.awsstatic.com/product-marketing/Step%20Functions/sfn_how-it-works.f795601e8338db32506b9abb01e71704f483fc81.png)
+
 - **AWS Batch** - You can use AWS Batch to plan, schedule and execute your batch computing workloads across the full range of AWS compute services. AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted. AWS Batch provisions compute resources and optimizes the job distribution based on the volume and resource requirements of the submitted batch jobs.
 
 **Please review the common use-cases for AWS Batch:** [via AWS Batch](https://aws.amazon.com/batch/)
+
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q64-i1.jpg)
 
 **Exam Alert:**
 
@@ -907,7 +936,11 @@ AWS CAF groups its capabilities in six perspectives: Business, People, Governanc
 
 Operations perspective helps ensure that your cloud services are delivered at a level that meets the needs of your business. Performance and capacity management under the Operations perspective is part of the AWS Cloud Adoption Framework (AWS CAF)
 
-**AWS Cloud Adoption Framework (AWS CAF) - Foundational capabilities:** [via AWS CAF](https://docs.aws.amazon.com/whitepapers/latest/overview-aws-cloud-adoption-framework/foundational-capabilities.html)
+**AWS Cloud Adoption Framework (AWS CAF) - Foundational capabilities:** 
+
+![](https://docs.aws.amazon.com/images/whitepapers/latest/overview-aws-cloud-adoption-framework/images/cloud-adoption-2.png)
+
+[via AWS CAF](https://docs.aws.amazon.com/whitepapers/latest/overview-aws-cloud-adoption-framework/foundational-capabilities.html)
 
 **Incorrect options:**
 
@@ -956,7 +989,11 @@ As the thumbnails are rarely used but need to be rapidly accessed when required,
 
 **Exam Alert:**
 
-Please review this detailed comparison on S3 Storage Classes as you can expect a few questions on this aspect of S3: [via S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
+Please review this detailed comparison on S3 Storage Classes as you can expect a few questions on this aspect of S3: 
+
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q16-i1.jpg)
+
+[via S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
 
 **Incorrect options:**
 
@@ -1107,7 +1144,12 @@ As per the AWS shared responsibility model, the customer is responsible for secu
 
 **Exam Alert:**
 
-Please review the Shared Responsibility Model in detail as you can expect multiple questions on the shared responsibility model in the exam: [via Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/)
+Please review the Shared Responsibility Model in detail as you can expect multiple questions on the shared responsibility model in the exam: 
+
+![](https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
+
+
+[via Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
 **Incorrect options:**
 
@@ -1191,13 +1233,21 @@ _Which AWS service can be used to store, manage, and deploy Docker container ima
 
 **Amazon Elastic Container Registry (Amazon ECR)** - Amazon Elastic Container Registry (Amazon ECR) can be used to store, manage, and deploy Docker container images. Amazon Elastic Container Registry (Amazon ECR) eliminates the need to operate your container repositories. You can then pull your docker images from Amazon Elastic Container Registry (Amazon ECR) and run those on Amazon Elastic Container Service (Amazon ECS).
 
-Please see this schematic diagram to understand how Amazon Elastic Container Registry (Amazon ECR) works: [via - https://aws.amazon.com/ecr/](https://aws.amazon.com/ecr/)
+Please see this schematic diagram to understand how Amazon Elastic Container Registry (Amazon ECR) works: 
+
+![](https://d1.awsstatic.com/diagrams/product-page-diagrams/Product-Page-Diagram_Amazon-ECR.bf2e7a03447ed3aba97a70e5f4aead46a5e04547.png)
+
+[via - https://aws.amazon.com/ecr/](https://aws.amazon.com/ecr/)
 
 **Incorrect options:**
 
 - **Amazon Elastic Container Service (Amazon ECS)** - Amazon Elastic Container Service (Amazon ECS) is a highly scalable, fast, container management service that makes it easy to run, stop, and manage Docker containers on a cluster. You cannot use Amazon Elastic Container Service (Amazon ECS) to store and deploy docker container images.
 
-  Please see this schematic diagram to understand how Amazon Elastic Container Service (Amazon ECS) works: [via - https://aws.amazon.com/ecs/](https://aws.amazon.com/ecs/)
+  Please see this schematic diagram to understand how Amazon Elastic Container Service (Amazon ECS) works: 
+  
+![](https://d1.awsstatic.com/diagrams/product-page-diagrams/product-page-diagram_ECS_1.86ebd8c223ec8b55aa1903c423fbe4e672f3daf7.png)
+  
+[via - https://aws.amazon.com/ecs/](https://aws.amazon.com/ecs/)
 
 - **Amazon Elastic Compute Cloud (Amazon EC2)** - Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the AWS cloud. You can use EC2 to provision virtual servers on AWS Cloud. You cannot use EC2 to store and deploy docker container images.
 
@@ -1276,7 +1326,11 @@ _A developer has written a simple web application in PHP and he wants to just up
 
 AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS. Simply upload your code and AWS Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time. There is no additional charge for AWS Elastic Beanstalk - you pay only for the AWS resources needed to store and run your applications.
 
-Key Benefits of AWS Elastic Beanstalk: [via - https://aws.amazon.com/elasticbeanstalk/](https://aws.amazon.com/elasticbeanstalk/)
+Key Benefits of AWS Elastic Beanstalk: 
+
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q45-i1.jpg)
+
+[via - https://aws.amazon.com/elasticbeanstalk/](https://aws.amazon.com/elasticbeanstalk/)
 
 **Incorrect options:**
 
@@ -1318,7 +1372,11 @@ _An e-commerce company wants to assess its applications deployed on Amazon Elast
 
 Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. Amazon Inspector automatically assesses applications for exposure, vulnerabilities, and deviations from best practices.
 
-Overview of Amazon Inspector: [via - https://aws.amazon.com/inspector/](https://aws.amazon.com/inspector/)
+Overview of Amazon Inspector: 
+
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q28-i1.jpg)
+
+[via - https://aws.amazon.com/inspector/](https://aws.amazon.com/inspector/)
 
 **Incorrect options:**
 
@@ -1362,11 +1420,22 @@ _Which of the following solutions can you use to connect your on-premises networ
 
 - **AWS Direct Connect** - AWS Direct Connect is a cloud service solution that makes it easy to establish a dedicated network connection from your premises to AWS. Using AWS Direct Connect, you can establish private connectivity between AWS and your datacenter, office, or colocation environment, which in many cases can reduce your network costs, increase bandwidth throughput, and provide a more consistent network experience than Internet-based connections.
 
-  How AWS Direct Connect Works: [via - https://aws.amazon.com/directconnect/](https://aws.amazon.com/directconnect/)
+  How AWS Direct Connect Works:
+  
+![](https://d1.awsstatic.com/AWS%20Direct%20Connect/Product-Page-Diagram_Direct-Connect.0166400894ac5f9c921c3f7a346f55d8c42f492c.png)
+  
+  [via - https://aws.amazon.com/directconnect/](https://aws.amazon.com/directconnect/)
 
 - **AWS Virtual Private Network (VPN)** - AWS Virtual Private Network (VPN) solutions establish secure connections between on-premises networks, remote offices, client devices, and the AWS global network. AWS VPN is comprised of two services: AWS Site-to-Site VPN and AWS Client VPN. Together, they deliver a highly-available, managed, and elastic cloud VPN solution to protect your network traffic.
 
-  How AWS Client VPN Works: [via - https://aws.amazon.com/vpn/](https://aws.amazon.com/vpn/)
+  How AWS Client VPN Works: 
+  
+![](https://d1.awsstatic.com/diagrams/Product-Page-Diagram_Aws-Client-VPN-Connect@2x.7e31b8a9dc7f38312794b311d37faf145adc0f96.png)
+
+
+![](https://d1.awsstatic.com/diagrams/product-page-diagram_Accelerated-Site-to-Site-VPN_How-it-Works@2x.89c94ea4b307abe21f82d9fd453fe3c72cacb2a3.png)
+
+  [via - https://aws.amazon.com/vpn/](https://aws.amazon.com/vpn/)
 
   How AWS Site-to-Site VPN Works: [via - https://aws.amazon.com/vpn/](https://aws.amazon.com/vpn/)
 
@@ -1954,6 +2023,12 @@ AWS Enterprise Support provides customers with concierge-like service where the 
 
 Please review the differences between the AWS Developer Support, AWS Business Support, AWS Enterprise On-Ramp Support, and AWS Enterprise Support plans as you can expect at least a couple of questions on the exam:
 
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q33-i1.jpg)
+
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q33-i2.jpg)
+
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q33-i3.jpg)
+
 - [AWS Support Plans](https://aws.amazon.com/premiumsupport/plans/)
 
 **Incorrect options:**
@@ -2380,6 +2455,8 @@ PaaS removes the need to manage underlying infrastructure (usually hardware and 
 SaaS provides you with a complete product that is run and managed by the service provider. With a SaaS offering, you don’t have to think about how the service is maintained or how the underlying infrastructure is managed. You only need to think about how you will use that particular software. Examples - Amazon Rekognition, Google Apps (Gmail), Dropbox, Zoom.
 
 - [Overview of Cloud Computing Types](https://aws.amazon.com/types-of-cloud-computing/)
+
+![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q1-i1.jpg)
 
 You can use Amazon Rekognition to add image and video analysis to your applications using proven, highly scalable, deep learning technology that requires no machine learning expertise. With Amazon Rekognition, you can identify objects, people, text, scenes, and activities in images and videos as well as detect any inappropriate content. Rekognition is an example of Software as a Service (Saas) model.
 
